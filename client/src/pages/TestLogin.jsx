@@ -103,7 +103,7 @@ const TestLogin = () => {
           <h3 className="text-lg font-semibold mb-3">If Tests Fail:</h3>
           <ol className="list-decimal list-inside space-y-2 text-sm">
             <li>Make sure MongoDB is running</li>
-            <li>Make sure backend server is running (port 5000)</li>
+            <li>Make sure backend server is running (port 5001)</li>
             <li>Run seed script: <code className="bg-white px-2 py-1 rounded">cd server && npm run seed</code></li>
             <li>Check backend console for errors</li>
           </ol>
